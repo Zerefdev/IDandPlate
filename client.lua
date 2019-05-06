@@ -2,8 +2,8 @@
 -- Discord: ZerefGG#4819
 
 local HUD = {	
-	Plate	= true, -- false if you want to disable display Plate1
-	ID		= true  -- false if you want to disable display ID
+	Plate	= true, -- false if you want to disable display Plate
+	ID	= true  -- false if you want to disable display ID
 }
 
 local UI = { 
@@ -29,8 +29,8 @@ Citizen.CreateThread(function()
 		
 		if HUD.ID then
 			local playerID = GetPlayerServerId(PlayerId())
-			drawTxt(UI.x + 0.666, 	UI.y + 1.460, 1.0,1.0,0.55, "~y~ID : ", 255, 255, 255, 255)
-			drawTxt(UI.x + 0.688, 	UI.y + 1.460, 1.0,1.0,0.55, "~w~" .. playerID, 255, 255, 255, 255)
+			drawTxt(UI.x + 0.666, 	UI.y + 1.460, 1.0,1.0,0.55, "~y~ID", 255, 255, 255, 255)
+			drawTxt(UI.x + 0.685, 	UI.y + 1.460, 1.0,1.0,0.55, "~w~" .. playerID, 255, 255, 255, 255)
 
 		end		
 		
