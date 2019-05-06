@@ -12,3 +12,7 @@ Nothing
 - Put it in the `resources` directory
 - Add this in your `server.cfg`: `start IDandPlate`
 
+
+## Screenshot
+
+https://i.imgur.com/ddXvcFV.jpg
